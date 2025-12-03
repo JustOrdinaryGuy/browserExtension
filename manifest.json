@@ -1,0 +1,15 @@
+{
+    "name": "Bluesky Likes Logged Extension",
+    "author": "CompNameIsRequired2025",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "bg-wrapper.js"
+    },
+    "action": {
+        "default_title": "Default Title",
+        "default_popup": "index.html"
+    },
+    "permissions": ["scripting", "activeTab", "storage", "downloads"],
+    "host_permissions": ["*://*/*"]
+  }
